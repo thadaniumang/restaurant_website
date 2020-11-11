@@ -1,0 +1,23 @@
+form input, form textarea{
+    outline: 0;
+}
+
+form input.valid, form textarea.valid{
+    border: 2px solid #36cc36;
+}
+
+form input.invalid, form textarea.invalid{
+    border: 2px solid #aa180d;
+}
+
+form input+p, form textarea+p, form label+p{
+    color: #aa180d;
+    font-size: small;
+    opacity: 0;
+    height: 0;
+}
+
+form input.invalid + p, form textarea.invalid + p, form input.invalid+label+p{
+    opacity: 1;
+    height: auto;
+}

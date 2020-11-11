@@ -1,0 +1,57 @@
+[
+    {
+        "img": "burger",
+        "name": "Veg Burger",
+        "price": 70
+    },
+    {
+        "img": "french toast",
+        "name": "French Toast",
+        "price": 150
+    },
+    {
+        "img": "meatball",
+        "name": "Meat Balls",
+        "price": 100
+    },
+    {
+        "img": "Fries",
+        "name": "Potato Fries",
+        "price": 120
+    },
+    {
+        "img": "pasta",
+        "name": "Italian Pasta",
+        "price": 150
+    },
+    {
+        "img": "steak",
+        "name": "Steak",
+        "price": 200
+    },
+    {
+        "img": "kollam",
+        "name": "Kollam",
+        "price": 100
+    },
+    {
+        "img": "pancake",
+        "name": "Pancake",
+        "price": 130
+    },
+    {
+        "img": "corn",
+        "name": "Roasted Corn",
+        "price": 50
+    },
+    {
+        "img": "dumplings",
+        "name": "Dumplings",
+        "price": 150
+    },
+    {
+        "img": "salad",
+        "name": "Salad",
+        "price": 60
+    }
+]
