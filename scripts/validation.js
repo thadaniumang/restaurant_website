@@ -11,8 +11,6 @@ const regExp = {
 };
 
 const validate = (field,regex) => {
-    console.log(field.value);
-    console.log(regex.test(field.value))
     if(regex.test(field.value)){
         field.className = 'valid';
     }
