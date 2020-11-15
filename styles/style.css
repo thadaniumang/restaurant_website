@@ -294,6 +294,20 @@ input[type="submit"]:hover{
     box-shadow: 0.5px 0.5px 1.5px 1.5px #721865;
 }
 
+.order-placed, .order-failed {
+    padding: 10px 30px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.order-placed {
+    color: #721865;
+}
+
+.order-failed {
+    color: #991515;
+}
+
 @media(min-width: 576px) {
     #about p:nth-child(1){
         font-size: large;

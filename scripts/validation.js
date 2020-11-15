@@ -2,7 +2,7 @@ const inputs = Array.from(document.querySelectorAll('input'));
 inputs.push(document.querySelector('textarea'));
 
 const regExp = {
-    name: /^([a-zA-z]+)\s?([a-zA-z]+)?\s?([a-zA-z]+)?$/,
+    name: /^[a-zA-Z-' ]*$/,
     mail: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
     item: /^[A-z\s,]+$/,
     phone: /^\d{10}$/,

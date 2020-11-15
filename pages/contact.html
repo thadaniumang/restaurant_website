@@ -36,7 +36,7 @@
             <p></p>
         </div>
         <div class="order">
-            <form class="row">
+            <form class="row" method="POST" action="../order/order.php">
                 <div class="col-lg-5 col-sm-4 col-12">
                     <label for="name">Full Name</label><br>
                     <input type="text" name="name" placeholder="John Doe">
@@ -59,9 +59,9 @@
                 </div>
                 <div class="col-lg-6 col-md-7 col-12" id="radio">
                     <label for="mode">Mode of Payment</label><br>
-                    <input type="radio" id="COD" name="mode">
+                    <input type="radio" id="COD" name="mode" value="COD">
                     <label for="COD">Cash On Delivery</label>
-                    <input type="radio" id="online" name="mode">
+                    <input type="radio" id="online" name="mode" value="Online">
                     <label for="online">Online</label>
                     <p>Atleast one choice is required</p>
                 </div>
